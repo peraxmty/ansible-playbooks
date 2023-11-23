@@ -1,2 +1,5 @@
-# from galaxy
-- name: community.general
+collections:
+  # Install a collection from Ansible Galaxy.
+  - name: community.general
+    source: https://galaxy.ansible.com
+    
