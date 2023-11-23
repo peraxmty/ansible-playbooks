@@ -1,3 +1,6 @@
-- name: Set timezone to Asia/Tokyo
-  community.general.timezone:
-    name: America/Monterrey
+- hosts: all
+  become: true
+  tasks:
+  - name: Set timezone to Asia/Tokyo
+    community.general.timezone:
+      name: America/Monterrey
